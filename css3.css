@@ -1,0 +1,1342 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+#divheader {
+    width: 100%;
+    background-color: #090C11;
+    height: 12vh;
+    color: #E1E6EF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 12vh;
+    text-align: center;
+}
+
+#divlogo {
+    align-items: center;
+    height: 12vh;
+    width: 14%;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    height: 12vh;
+    width: 12%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divlogo2 {
+    height: 10vh;
+    width: 10vh;
+}
+
+
+
+.imagem-ajustada {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#divnada1 {
+    flex-direction: row;
+    align-items: center;
+    height: 11.5vh;
+    width: 16%;
+}
+
+#divsobre {
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    width: 8%;
+    font-size: 2vh;
+}
+
+#divhabilidades {
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    width: 8%;
+    font-size: 2vh;
+}
+
+#divprojetos {
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    width: 8%;
+    font-size: 2vh;
+}
+
+#divnada2 {
+    flex-direction: row;
+    align-items: center;
+    height: 11.5vh;
+    width: 15%;
+}
+
+#divcontato {
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    width: 14%;
+    color: #E1E6EF;
+    font-size: 2vh;
+
+}
+
+#btncontato {
+    color: #E1E6EF;
+    border: solid 0.2vh #E1E6EF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 1%;
+    font-size: 2vh;
+}
+
+#btncontato:hover {
+    color: #E1E6EF;
+    border: solid 0.21vh #E1E6EF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 1%;
+    font-size: 2vh;
+    font-size: 2.1vh;
+    background-color: #10151d;
+}
+
+
+
+#btncontato1 {
+    color: #E1E6EF;
+    height: 5vh;
+    width: 21vh;
+    font-size: 2vh;
+}
+
+#btnbranco1 {
+    color: #E1E6EF;
+
+}
+
+#btnbranco2 {
+    color: #E1E6EF;
+
+}
+
+#btnbranco3 {
+    color: #E1E6EF;
+
+}
+
+
+#br1 {
+    height: 0.5vh;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+/* Inicio -*/
+
+
+
+#inicio {
+    width: 100%;
+    background-color: #090C11;
+    height: 36vh;
+    color: #E1E6EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+
+#divMinHab {
+    padding-bottom: 1vh;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 4vh;
+    font-weight: 300;
+    font-style: normal;
+    color: #99AAFF;
+}
+
+#divEx {
+    color: #E1E6EF;
+    width: 90vh;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 4vh;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* - Inicio*/
+
+
+
+/* Linguagens - */
+
+
+#linguagens {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+#linguagens1 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 12vh;
+    padding-bottom: 1vh;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 4vh;
+    font-weight: 300;
+    font-style: normal;
+    color: #99AAFF;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+#linguagens2 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 8vh;
+    color: #E1E6EF;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3vh;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 1.5vh;
+}
+
+#linguagens3 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 79vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ball1 {
+    width: 10vh;
+    height: 10vh;
+    background-color: #99AAFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.ball1.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.ball2 {
+    width: 15vh;
+    height: 15vh;
+    background-color: #E1E6EF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.ball2.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.ball3 {
+    width: 27vh;
+    height: 27vh;
+    background-color: #99AAFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.ball3.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.ball4 {
+    width: 12vh;
+    height: 12vh;
+    background-color: #C2E0FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.ball4.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+
+.ball5 {
+    width: 100px;
+    height: 100px;
+    background-color: #C2E0FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.ball5.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.ball6 {
+    width: 50vh;
+    height: 50vh;
+    background-color: #221B4B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.ball6.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* - Linguagens*/
+
+
+
+/* Aplicativos -*/
+
+
+
+#aplicativos {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+#aplicativos1 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 12vh;
+    padding-bottom: 1vh;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 4vh;
+    font-weight: 300;
+    font-style: normal;
+    color: #99AAFF;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+#aplicativos2 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 8vh;
+    color: #E1E6EF;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3vh;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 1.5vh;
+}
+
+#aplicativos3 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 79vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bola1 {
+    width: 20vh;
+    height: 20vh;
+    background-color: #C2E0FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.bola1.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.bola2 {
+    width: 30vh;
+    height: 30vh;
+    background-color: #221B4B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.bola2.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.bola3 {
+    width: 40vh;
+    height: 40vh;
+    background-color: #99AAFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.bola3.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+
+
+/* - Aplicativos*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* Outras - */
+
+
+
+#outras {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+#outras1 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 12vh;
+    padding-bottom: 1vh;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 4vh;
+    font-weight: 300;
+    font-style: normal;
+    color: #99AAFF;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+#outras2 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 8vh;
+    color: #E1E6EF;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3vh;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 1.5vh;
+}
+
+#outras3 {
+    background-color: #090C11;
+    text-align: center;
+    width: 100%;
+    height: 79vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bolas1 {
+    width: 40vh;
+    height: 40vh;
+    background-color: #221B4B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.bolas1.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.bolas2 {
+    width: 33vh;
+    height: 33vh;
+    background-color: #99AAFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.bolas2.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.bolas3 {
+    width: 22vh;
+    height: 22vh;
+    background-color: #C2E0FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.bolas3.visible {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+
+
+
+
+/* - Outras */
+
+
+
+
+
+
+/* BARRA - */
+
+#barracontato {
+    height: 16vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3.3vh;
+    font-style: normal;
+    text-align: center;
+}
+
+#divlink {
+    width: 40vh;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#divgit {
+    width: 40vh;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#divema {
+    width: 40vh;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgcon {
+    height: 8vh;
+    width: 8vh;
+    object-fit: cover;
+    margin-top: 0.2vh;
+}
+
+
+#emailzin {
+    font-size: 2.8vh;
+}
+
+/* - BARRA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+
+    #br1 {
+        height: 0.5vh;
+        width: 100%;
+        background-color: #090C11;
+    }
+
+    #inicio {
+        width: 100%;
+        background-color: #E1E6EF;
+        height: 36vh;
+        color: #090C11;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vh;
+    }
+
+    #divMinHab {
+        padding-bottom: 1vh;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 4vh;
+        font-weight: 300;
+        font-style: normal;
+        color: #99AAFF;
+    }
+
+    #divEx {
+        color: #090C11;
+        width: 90vh;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 4vh;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+
+    /* - Inicio*/
+
+
+
+    /* Linguagens - */
+
+
+    #linguagens {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+    }
+
+
+    #linguagens1 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 12vh;
+        padding-bottom: 1vh;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 4vh;
+        font-weight: 300;
+        font-style: normal;
+        color: #99AAFF;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    #linguagens2 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 8vh;
+        color: #090C11;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3vh;
+        font-weight: 300;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        padding-bottom: 1.5vh;
+    }
+
+    #linguagens3 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 79vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .ball1 {
+        width: 10vh;
+        height: 10vh;
+        background-color: #99AAFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .ball1.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .ball2 {
+        width: 15vh;
+        height: 15vh;
+        background-color: #090C11;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .ball2.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .ball3 {
+        width: 27vh;
+        height: 27vh;
+        background-color: #99AAFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .ball3.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .ball4 {
+        width: 12vh;
+        height: 12vh;
+        background-color: #C2E0FF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .ball3.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .ball5 {
+        width: 100px;
+        height: 100px;
+        background-color: #C2E0FF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .ball5.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .ball6 {
+        width: 50vh;
+        height: 50vh;
+        background-color: #221B4B;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .ball6.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* - Linguagens*/
+
+
+
+    /* Aplicativos -*/
+
+
+
+    #aplicativos {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+    }
+
+
+    #aplicativos1 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 12vh;
+        padding-bottom: 1vh;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 4vh;
+        font-weight: 300;
+        font-style: normal;
+        color: #99AAFF;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    #aplicativos2 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 8vh;
+        color: #090C11;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3vh;
+        font-weight: 300;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        padding-bottom: 1.5vh;
+    }
+
+    #aplicativos3 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 79vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bola1 {
+        width: 20vh;
+        height: 20vh;
+        background-color: #C2E0FF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .bola1.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+
+    .bola2 {
+        width: 30vh;
+        height: 30vh;
+        background-color: #221B4B;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .bola2.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .bola3 {
+        width: 40vh;
+        height: 40vh;
+        background-color: #99AAFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .bola3.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+
+
+    /* - Aplicativos*/
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Outras - */
+
+
+
+    #outras {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+    }
+
+
+    #outras1 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 12vh;
+        padding-bottom: 1vh;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 4vh;
+        font-weight: 300;
+        font-style: normal;
+        color: #99AAFF;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    #outras2 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 8vh;
+        color: #090C11;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3vh;
+        font-weight: 300;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        padding-bottom: 1.5vh;
+    }
+
+    #outras3 {
+        background-color: #E1E6EF;
+        text-align: center;
+        width: 100%;
+        height: 79vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bolas1 {
+        width: 40vh;
+        height: 40vh;
+        background-color: #221B4B;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .bolas1.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .bolas2 {
+        width: 33vh;
+        height: 33vh;
+        background-color: #99AAFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .bolas2.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .bolas3 {
+        width: 22vh;
+        height: 22vh;
+        background-color: #C2E0FF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .bolas3.visible {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* - Outras */
+
+
+
+
+
+
+    /* BARRA - */
+
+    #barracontato {
+        height: 16vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3.3vh;
+        font-style: normal;
+        text-align: center;
+    }
+
+    #divlink {
+        width: 40vh;
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #divgit {
+        width: 40vh;
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #divema {
+        width: 40vh;
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #imgcon {
+        height: 8vh;
+        width: 8vh;
+        object-fit: cover;
+        margin-top: 0.2vh;
+    }
+
+
+    #emailzin {
+        font-size: 2.8vh;
+    }
+
+    /* - BARRA */
+}

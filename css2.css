@@ -1,0 +1,686 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+#divheader {
+    width: 100%;
+    background-color: #090C11;
+    height: 12vh;
+    color: #E1E6EF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 12vh;
+    text-align: center;
+}
+
+#divlogo {
+    align-items: center;
+    height: 12vh;
+    width: 14%;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    height: 12vh;
+    width: 12%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divlogo2 {
+    height: 10vh;
+    width: 10vh;
+}
+
+.imagem-ajustada {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#divnada1 {
+    flex-direction: row;
+    align-items: center;
+    height: 11.5vh;
+    width: 16%;
+}
+
+#divsobre {
+    
+    height: 12vh;
+    width: 8%;
+    font-size: 2vh;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    line-height: 12vh;
+    padding: 0;
+    margin: 0;
+}
+
+#divhabilidades {
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    width: 8%;
+    font-size: 2vh;
+}
+/**/
+/*#divsobre a,*/
+/*#divhabilidades a {*/
+   /* text-decoration: none; */
+    /*border-bottom: 0.1vh solid #E1E6EF; */
+    /*padding-bottom: 4px; */
+/*}*/
+
+#divprojetos {
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    width: 8%;
+    font-size: 2vh;
+}
+
+#divnada2 {
+    flex-direction: row;
+    align-items: center;
+    height: 11.5vh;
+    width: 15%;
+}
+
+#divcontato {
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    width: 14%;
+    color: #E1E6EF;
+    font-size: 2vh;
+
+}
+
+#btncontato {
+    color: #E1E6EF;
+    border: solid 0.2vh #E1E6EF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 1%;
+    font-size: 2vh;
+}
+
+#btncontato:hover {
+    color: #E1E6EF;
+    border: solid 0.21vh #E1E6EF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 1%;
+    font-size: 2vh;
+    font-size: 2.1vh;
+    background-color: #10151d;
+}
+
+#btncontato1 {
+    color: #E1E6EF;
+    height: 5vh;
+    width: 21vh;
+    font-size: 2vh;
+}
+
+#btnbranco1 {
+    color: #E1E6EF;
+
+}
+#btnbranco2 {
+    color: #E1E6EF;
+
+}
+#btnbranco3 {
+    color: #E1E6EF;
+
+}
+
+
+#br1 {
+    height: 0.5vh;
+    width: 100%;
+}
+
+
+/* Sobre - */
+
+
+
+
+#divsobrefora {
+    height: 87vh;
+    width: 100%;
+    background-color: #090C11;
+    color: #E1E6EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divsobredentro {
+    height: 75vh;
+    width: 100%;
+    background-color: #0B0F16;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#divsobre1 {
+    height: 75vh;
+    width: 45%;
+}
+
+
+
+
+
+#divsobre2 {
+    height: 75vh;
+    width: 30%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#divsobre2 img {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#sobresobre {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 6vh;
+    font-style: normal;
+    text-align: left;
+    margin-top: 4vh;
+    color: #C2E0FF;
+}
+
+#sobredes {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 5vh;
+    font-style: normal;
+    text-align: left;
+    margin-top: 3vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* - Sobre */
+
+
+
+
+
+/* Sobre2 */
+
+
+#divsobrefora2 {
+    height: 87vh;
+    width: 100%;
+    background-color: #090C11;
+    color: #E1E6EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divsobredentro2 {
+    height: 75vh;
+    width: 100%;
+    background-color: #0B0F16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#divtitulo {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 4vh;
+    font-style: normal;
+    text-align: left;
+    margin-top: 3vh;
+    color: #99AAFF;
+}
+
+
+
+#divnaotitulo {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+
+#divnao1 {
+    
+    height: 65vh;
+    width: 40%;
+}
+
+#divnao2 {
+    height: 65vh;
+    width: 40%;
+}
+
+#divhb1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
+    width: 100%;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3vh;
+    font-style: normal;
+    text-align: left;
+    margin-top: 3vh;
+    color: #FFFFFF;
+    padding-right: 3.5vh;
+}
+
+#divhb2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
+    width: 100%;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3vh;
+    font-style: normal;
+    text-align: left;
+    margin-top: 3vh;
+    color: #FFFFFF;
+    padding-right: 3.5vh;
+    
+}
+
+#divhb3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
+    width: 100%;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3vh;
+    font-style: normal;
+    text-align: left;
+    margin-top: 3vh;
+    color: #FFFFFF;
+    padding-left: 3.5vh;
+}
+
+#divhb4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23vh;
+    width: 100%;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3vh;
+    font-style: normal;
+    text-align: left;
+    margin-top: 3vh;
+    color: #FFFFFF;
+    padding-left: 3.5vh;
+}
+
+
+
+
+
+
+
+
+/* Sobre2 */
+
+
+
+
+
+/* BARRA - */
+
+#barracontato {
+    height: 16vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 3.3vh;
+    font-style: normal;
+    text-align: center;
+}
+
+#divlink {
+    width: 40vh;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#divgit {
+    width: 40vh;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#divema {
+    width: 40vh;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#imgcon {
+    height: 8vh;
+    width: 8vh;
+    object-fit: cover;
+    margin-top: 0.2vh;
+}
+
+
+#emailzin {
+    font-size: 2.8vh;
+}
+
+
+
+
+
+
+
+
+
+/* - BARRA */
+
+
+
+@media (prefers-color-scheme: light) {
+
+#br1 {
+        height: 0.5vh;
+        width: 100%;
+        background-color: #090C11;
+    }
+
+
+    #divsobrefora {
+        height: 87vh;
+        width: 100%;
+        background-color: #E1E6EF;
+        color: #090C11;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #divsobredentro {
+        height: 75vh;
+        width: 100%;
+        background-color: #ced6e2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #divsobre1 {
+        height: 75vh;
+        width: 45%;
+    }
+    
+    
+    
+    
+    
+    #divsobre2 {
+        height: 75vh;
+        width: 30%;
+        object-fit: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #divsobre2 img {
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #sobresobre {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 6vh;
+        font-style: normal;
+        text-align: left;
+        margin-top: 4vh;
+        color: #99AAFF;
+    }
+    
+    #sobredes {
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 5vh;
+        font-style: normal;
+        text-align: left;
+        margin-top: 3vh;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* - Sobre */
+    
+    
+    /* Sobre2 */
+    
+    
+    #divsobrefora2 {
+        height: 87vh;
+        width: 100%;
+        background-color: #E1E6EF;
+        color: #090C11;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #divsobredentro2 {
+        height: 75vh;
+        width: 100%;
+        background-color:  #ced6e2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #divtitulo {
+        height: 10vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 4vh;
+        font-style: normal;
+        text-align: left;
+        margin-top: 3vh;
+        color: #99AAFF;
+    }
+    
+    
+    
+    #divnaotitulo {
+        height: 65vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vh;
+    }
+    
+    
+    #divnao1 {
+        
+        height: 65vh;
+        width: 40%;
+    }
+    
+    #divnao2 {
+        height: 65vh;
+        width: 40%;
+    }
+    
+    #divhb1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 23vh;
+        width: 100%;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3vh;
+        font-style: normal;
+        text-align: left;
+        margin-top: 3vh;
+        color: #090C11;
+        padding-right: 3.5vh;
+    }
+    
+    #divhb2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 23vh;
+        width: 100%;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3vh;
+        font-style: normal;
+        text-align: left;
+        margin-top: 3vh;
+        color: #090C11;
+        padding-right: 3.5vh;
+        
+    }
+    
+    #divhb3
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 23vh;
+        width: 100%;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3vh;
+        font-style: normal;
+        text-align: left;
+        margin-top: 3vh;
+        color: #090C11;
+        padding-left: 3.5vh;
+    }
+    
+    #divhb4
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 23vh;
+        width: 100%;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3vh;
+        font-style: normal;
+        text-align: left;
+        margin-top: 3vh;
+        color: #090C11;
+        padding-left: 3.5vh;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Sobre2 */
+    
+    
+    
+
+
+
+
+
+
+}
