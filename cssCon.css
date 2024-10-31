@@ -181,12 +181,14 @@
     font-weight: 200;
     font-style: normal;
 }
+
 #divformulario1 {
-    
+
     display: flex;
     align-items: center;
     flex-direction: row;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -241,12 +243,11 @@ textarea {
 
 .send-button:hover {
     background-color: #5a5abb;
-    
+
 }
 
 
-#contatocontato
-{
+#contatocontato {
     font-size: 4vh;
     padding-bottom: 5vh;
     color: #C2E0FF;
@@ -257,35 +258,7 @@ textarea {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* - Formulário*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -347,12 +320,241 @@ textarea {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (prefers-color-scheme: light) {
 
     #br1 {
         height: 0.5vh;
         width: 100%;
         background-color: #090C11;
+    }
+
+
+    #inicio {
+        width: 100%;
+        background-color: #E1E6EF;
+        height: 87.5vh;
+        color: #090C11;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vh;
+    }
+
+
+    /* Formulário - */
+
+    #divformulario {
+        height: 87.5vh;
+        width: 74%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    #divformulario1 {
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 1vh;
+    }
+
+    label {
+        margin-bottom: 0.5vh;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        background-color: transparent;
+        border: none;
+        border-bottom: 0.1vh solid #090C11;
+        color: #090C11;
+        padding: 1vh 0;
+        margin-bottom: 1vh;
+        outline: none;
+        width: 60vh;
+    }
+
+
+    textarea {
+        resize: none;
+        height: 20vh;
+    }
+
+
+    .send-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        writing-mode: vertical-rl;
+        background-color: #C2E0FF;
+        color: #090C11;
+        font-weight: bold;
+        border: none;
+        padding: 1vh;
+        cursor: pointer;
+        font-size: 4vh;
+        margin-left: 30vh;
+        height: 40vh;
+        width: 10vh;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        margin-right: 10vh;
+    }
+
+
+    .send-button:hover {
+        background-color: #ffffff;
+
+    }
+
+
+    #contatocontato {
+        font-size: 4vh;
+        padding-bottom: 5vh;
+        color: #090C11;
+        margin-right: 10vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* - Formulário*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* BARRA - */
+
+    #barracontato {
+        height: 87.5vh;
+        width: 26%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-family: "Chakra Petch", sans-serif;
+        font-size: 3.3vh;
+        font-style: normal;
+        text-align: center;
+        background-color: #090C11;
+        color: white;
+    }
+
+    #divlink {
+        width: 40vh;
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #divgit {
+        width: 40vh;
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #divema {
+        width: 40vh;
+        height: 16vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #imgcon {
+        height: 8vh;
+        width: 8vh;
+        object-fit: cover;
+        margin-top: 0.2vh;
+    }
+
+
+    #emailzin {
+        font-size: 2.8vh;
     }
 
 
