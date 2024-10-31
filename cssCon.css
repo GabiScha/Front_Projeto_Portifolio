@@ -318,6 +318,9 @@ textarea {
     font-size: 2.8vh;
 }
 
+/* #iconebrancolin :hover{
+    fill: rgb(0, 175, 117);
+} */
 
 
 
@@ -357,8 +360,7 @@ textarea {
 
 
 
-
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {/*light*//*dark*/
 
     #br1 {
         height: 0.5vh;
@@ -557,6 +559,10 @@ textarea {
         font-size: 2.8vh;
     }
 
+  #iconebrancolin path,
+    #divgit path {
+        fill: #E1E6EF; /* Cor para o modo escuro */
+    }
 
 }
 
