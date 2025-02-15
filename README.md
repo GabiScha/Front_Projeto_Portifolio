@@ -5,7 +5,7 @@
 
 <h2 id=objective>📌 Objetivos</h2>
 
-O objetivo do projeto colocar todo os meus conhecimentos de html, css e Js em apenas um projeto que defina o meu perfil.
+O objetivo do projeto é colocar todos os meus conhecimentos de html, css e Js em apenas um projeto que defina o meu perfil.
 
 <h2 id=features>⚙️ Funcionalidades </h2>
 
