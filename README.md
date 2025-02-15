@@ -10,6 +10,7 @@ O objetivo do projeto é colocar todos os meus conhecimentos de html, css e Js e
 <h2 id=features>⚙️ Funcionalidades </h2>
 
 Este projeto utiliza html e css para o corpo e os estilos, e o js para suas animações.
+
 Reatividade do modo Claro/Escuro
 
 <h2 id=technology>💻 Tecnologias</h2>
